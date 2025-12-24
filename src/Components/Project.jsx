@@ -7,7 +7,7 @@ function Project() {
             <div className="projectsec">
                 <div className="leftproject">
                     <div className="projectcard1" >
-                        <img src="p1.JPG" alt="project1" />
+                        <img src="/p1.jpg" alt="project1" />
                         <h3 className="projectname" >Portfolio Website</h3>
                         <p style={{marginBottom:"25px"}}>
                             A personal portfolio built using React, showcasing my skills and
@@ -15,17 +15,19 @@ function Project() {
                         </p>
                         <div className="projectbtn1">
                             <div className="btn1">
-                                <a href="#">Live Demo</a>
+                                <a href="https://portfolio-six-bay-57.vercel.app/"
+                                 target="_blank">Live Demo</a>
                             </div>
                             <div className="btn2">
-                                <a href="#">Git Hub</a>
+                                <a href="https://github.com/Avinashbarri/Portfolio"
+                                 target="_blank">Git Hub</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="rightproject">
                     <div className="projectcard2">
-                        <img src="p2.png" alt="project1" />
+                        <img src="/p2.png" alt="project1" />
                         <h3 className="projectname">Rock-Paper-Scissors</h3>
                         <p style={{marginBottom:"25px"}}>
                             A personal portfolio built using React, showcasing my skills and
@@ -33,10 +35,12 @@ function Project() {
                         </p>
                         <div className="projectbtn2">
                             <div className="btn1">
-                                <a href="#">Play Game</a>
+                                <a href="https://rock-paper-scissor-game-phi-two.vercel.app/"
+                                 target="_blank">Play Game</a>
                             </div>
                             <div className="btn2">
-                                <a href="#">Git Hub</a>
+                                <a href="https://github.com/Avinashbarri/Rock-Paper-Scissor-Game"
+                                 target="_blank">Git Hub</a>
                             </div>
                         </div>
                     </div>
