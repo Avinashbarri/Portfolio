@@ -1,0 +1,77 @@
+h1{
+  margin-top: 70px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.contactcontainer{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+.contactleft{
+  padding: 20px;
+  background-color: rgb(129 73 179);
+  height: auto;
+  width: 30%;
+  border-radius: 15px;
+}
+ .contactright{
+  padding: 20px;
+  background-color: rgb(129 73 179);
+  height: auto;
+  width: 30%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+} 
+.inputtext,
+.contactleft textarea {
+  width: 90%;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  margin-bottom: 10px;
+  background-color:  rgb(232, 217, 255);
+}
+#textmsg{
+    height: 100px;
+}
+.btn12{
+text-decoration: none;
+  background-color: #27084f;
+  color:white;
+  padding:7px;
+  border-radius: 10px;
+  font-size:1.1em; 
+  border:none ; 
+}
+.btn12container{
+    display: flex;
+    justify-content: center;
+}
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.contact-icon {
+  width: 22px;
+  height: 22px;
+  fill: #ffd36a;   /* gold accent */
+  flex-shrink: 0;
+}
+.contactright a {
+  color: white;
+  text-decoration: none;
+}
+.contactright a:hover {
+  text-decoration: underline;
+}

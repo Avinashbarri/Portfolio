@@ -1,0 +1,39 @@
+.homecontainer {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px 0;
+  font-size: 2rem;
+  align-items: center;
+}
+.homecontainer>div {
+  width: 30%;
+}
+#des {
+  color: rgb(99, 99, 203);
+}
+
+img {
+  width: 90%;
+  border-radius: 100px;
+  height: auto;
+}
+
+.btncontainer {
+  display: flex;
+  gap: 1rem;
+  padding-top: 30px;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 12px;
+  background-color: #000121;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background-color: rgb(129 73 179)
+}

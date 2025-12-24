@@ -1,0 +1,42 @@
+.skillscontainer{
+    text-align: center;
+}
+.skillsp img,.skills img{
+    width:55px;
+    width:75%;
+    height:80%;
+}
+.skillssec{
+    background-color: rgb(129 73 179);
+    width:60% ;
+    height: 30%;
+    margin: auto;
+    border-radius: 15px;
+    padding:10px;
+    margin-bottom: 30px;
+}
+.skills{
+    display:flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+}
+.skills{
+    display:flex;
+    flex-wrap: wrap; 
+}
+.skillsborder:hover{
+    /* border: 3px solid white; */
+    border-radius: 10px; 
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
+}
+.skillsborder{
+    width: 12%;
+    padding: 18px;
+    padding-top: 0;
+    text-align: center;
+    /* transition: 0.3s; */
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); */
+  outline: 2px solid rgba(255,255,255,0.08);
+  border-radius: 10px; 
+  height:11vh;
+}
